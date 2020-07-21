@@ -7,6 +7,7 @@ const startButton = document.getElementById('start-btn');
 const index = document.getElementById('index')
 const container = document.querySelector('.quiz-container');
 const questionEl = document.querySelector('.question');
+const quesImg = document.querySelector('.ques-img')
 const option1 = document.querySelector('.option1');
 const option2 = document.querySelector('.option2');
 const option3 = document.querySelector('.option3');
@@ -41,6 +42,8 @@ function generateQuestions (index) {
     option2.innerHTML = `${question.answer2}`
     option3.innerHTML = `${question.answer3}`
     option4.innerHTML = `${question.answer4}`
+
+    quesImg.innerHTML = `<img src="./Images/img${index + 1}.jpg" />`
 }
 
 

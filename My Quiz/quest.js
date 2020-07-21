@@ -9,7 +9,7 @@ const questions = [
       "answer3": "Yes but only on Valentine's day",
       "answer3Total": "3",
       "answer4": "Always",
-      "answer4Total": "4"
+      "answer4Total": "4",
     },
     {
       "question": "Do you like candle-lit dinners?",
