@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Quiz</title>
+</head>
+
+<body>
+
+    <div class="container" id="index">
+        <h1 class="text">What Type Of Romantic Person Are You?</h1>
+        <p class="text">5 Questions</p>
+        <img src="Images/img1.jpg" alt="Image">
+        <p id="ques" class="text">You can be romantic in many ways, from being subtle with it to openly showing your
+            partner admiration.<br>
+            Take this quiz if you want to find out what type of romantic person you are!</p>
+        <form action="">
+            <label for="" class="text">Name:</label>
+            <input type="text" name="" id="" class="form" placeholder="Enter Your Name"><br><br>
+            <label for="" class="text">Email:</label>
+            <input type="email" name="" id="" class="form" placeholder="Email Address"><br><br>
+            <input type="button" class="button" id="start-btn" value="Start">
+        </form>
+    </div>
+    <div class="quiz-container hide">
+        <div id="question" class="question"></div>
+        <label class="option">
+            <input type="radio" name="option" value="1" />
+            <span class="option1"></span>
+        </label>
+        <label class="option">
+            <input type="radio" name="option" value="2" />
+            <span class="option2"></span>
+        </label>
+        <label class="option">
+            <input type="radio" name="option" value="3" />
+            <span class="option3"></span>
+        </label>
+        <label class="option">
+            <input type="radio" name="option" value="4" />
+            <span class="option4"></span>
+        </label>
+        <!-- Buttons -->
+        <div class="controls">
+            <button class="previous">Previous</button>
+            <button class="next">Next</button>
+        </div>
+    </div>
+    <script src=quest.js></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
